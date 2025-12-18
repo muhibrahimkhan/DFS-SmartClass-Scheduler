@@ -20,6 +20,9 @@ DFS is used to traverse the scheduling decision tree efficiently, pruning invali
 
 This project demonstrates the application of algorithmic problem solving, search optimization, and constraint-based decision making in a real-world academic planning scenario, supported by a fully automated web-scraping data pipeline.
 
+## GUI Screenshots
+![GUI](screenshots/guiDFS.png)
+
 ### Key Features in the Project:
 - Built a full **data pipeline**: Web -> Structured Data -> Optimized Output
 - Designed a **DFS-based combinatorial search** with pruning for efficiency
@@ -53,8 +56,7 @@ The GUI allows users to:
 The GUI reuses the same DFS scheduling and conflict-detection logic as the CLI,
 demonstrating a clean separation between **user interface** and **algorithmic logic**.
 
-## GUI Screenshots
-![GUI](screenshots/guiDFS.png)
+
 
 
 
