@@ -1,16 +1,6 @@
 ﻿# DFS Smart Class Scheduler for UMass Boston
 
-### Automated Course Scheduling Using Web Scraping & Algorithmic Optimization
-#### Technologies:
-- Python
-- Selenium
-- DFS
-- Greedy Optimization
-- Data Structures
-#### Domain:
-- Automation
-- Algorithms
-- Systems Design
+## Automated Course Scheduling Using Web Scraping & Algorithmic Optimization
 
 ### Overview:
 The DFS Smart Class Scheduler is an automated scheduling system that helps students build optimal course schedules for an upcoming semester using real course offerings from the UMass Boston undergraduate catalog.
@@ -65,6 +55,7 @@ demonstrating a clean separation between **user interface** and **algorithmic lo
 
 ## GUI Screenshots
 ![GUI](screenshots/guiDFS.png)
+
 
 
 
