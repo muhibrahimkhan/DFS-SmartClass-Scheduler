@@ -64,6 +64,7 @@ The GUI reuses the same DFS scheduling and conflict-detection logic as the CLI,
 demonstrating a clean separation between **user interface** and **algorithmic logic**.
 
 ## GUI Screenshots
-![GUI](screenshots/Sreenshot (39).png)
+![GUI](screenshots/guiDFS.png)
+
 
 
