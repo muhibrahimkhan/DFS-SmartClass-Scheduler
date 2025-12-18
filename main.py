@@ -49,11 +49,11 @@ def main():
         if code:
             desired_courses.append(code)
     print("\nEnter the days you are willing to have class on as a single string.")
-    print("Use: M, T, W, Th, F (no spaces).")
+    print("Use: M, Tu, W, Th, F (no spaces).")
     print("Examples:")
     print("  MTWThF  -> allow any weekday")
     print("  MWF     -> only Monday/Wednesday/Friday")
-    print("  TTh     -> only Tuesday/Thursday")
+    print("  TuTh     -> only Tuesday/Thursday")
     print("Or just press Enter to allow ALL days.")
     raw_days = input(">>>>> ").strip()
 
