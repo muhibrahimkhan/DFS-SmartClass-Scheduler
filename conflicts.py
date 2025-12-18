@@ -1,6 +1,5 @@
 # This file contains helper functions to check if two classes sections
 # overlaps in time. It works with the dictionaries created in data_loader
-from pandas.core.array_algos.transforms import shift
 
 
 def make_daysList(days_str):
@@ -11,14 +10,15 @@ def make_daysList(days_str):
 
     i = 0
     while i < len(days_str):
-        if days_str[i] == "T" and days_str[i+1] in ("h", "H"):
-            result.append("Th")
+        if days_str[i:i + 2] in ("Tu", "Th"):
+            result.append(days_str[i:i + 2])
             i += 2
         else:
             result.append(days_str[i])
             i += 1
 
     return result
+
 
 def sections_overlap(sec1, sec2):
     # Returns True if two sections have some time overlap

@@ -38,12 +38,9 @@ def print_schedule(schedule, rank, score):
 def main():
     all_sections, courses_to_sections = load_csvfile()
 
-    print("======= Available Courses ======== \n")
-    for c in courses_to_sections.keys():
-        print(" - ", c)
-
-    print("Enter the courses you want, separated by commas: ")
-    print("\nExample: CSE 121, CSE 122 \n")
+    print("\n\n----- WELCOME TO COURSE SCHEDULER FOR UMASS BOSTON -----")
+    print("\n\nEnter the courses you want, separated by commas: ")
+    print("Example: CS 110, ENGL 101 \n")
     raw_courses = input(">>>>> ")
 
     desired_courses = []
@@ -51,7 +48,6 @@ def main():
         code = part.strip()
         if code:
             desired_courses.append(code)
-
     print("\nEnter the days you are willing to have class on as a single string.")
     print("Use: M, T, W, Th, F (no spaces).")
     print("Examples:")
